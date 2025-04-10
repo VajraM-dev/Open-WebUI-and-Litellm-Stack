@@ -6,6 +6,7 @@ This Docker Compose configuration sets up Open WebUI with LiteLLM for an integra
 ## Prerequisites
 - Docker
 - Docker Compose
+- Postgres
 - NVIDIA GPU (optional, for CUDA support)
 - NVIDIA Container Toolkit (if using GPU)
 
