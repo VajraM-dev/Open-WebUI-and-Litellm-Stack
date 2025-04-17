@@ -7,14 +7,11 @@ This Docker Compose configuration sets up Open WebUI with LiteLLM for an integra
 - Docker
 - Docker Compose
 - Postgres
-- NVIDIA GPU (optional, for CUDA support)
-- NVIDIA Container Toolkit (if using GPU)
 
 ## Services
 ### Open WebUI
 - Image: `ghcr.io/open-webui/open-webui:cuda`
 - Port: 3000
-- GPU-enabled
 - Persistent data volume
 
 ### LiteLLM
@@ -48,5 +45,4 @@ docker-compose up -d
 - LiteLLM API: http://localhost:4000
 
 ## Notes
-- Ensure GPU drivers and NVIDIA Container Toolkit are installed for CUDA support
 - Customize ports and configurations as needed
